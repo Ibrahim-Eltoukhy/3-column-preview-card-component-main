@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  margin: 30px 0;
+  font-size: 40px;
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 2;
+  font-size: 20px;
+  margin-bottom: 110px;
+}
+
+.container {
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  margin: 20px;
+}
+.sec {
+  padding: 30px 60px;
+}
+@media (max-width: 761px) {
+  .container {
+    flex-direction: column;
+    width: 400px;
+    margin: 40px auto;
+  }
+  .sec {
+    padding: 30px;
+  }
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  width: 140px;
+  cursor: pointer;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  margin: 20px auto;
+  font-size: 16px;
+}
+.btn-sedan {
+  color: hsl(31, 77%, 52%);
+}
+.btn-sedan:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+.btn-suv {
+  color: hsl(184, 100%, 22%);
+}
+.btn-suv:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+.btn-luxury:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+footer {
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer span {
+  color: hsl(184, 100%, 22%);
+  font-weight: bold;
+}
