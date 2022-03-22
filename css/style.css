@@ -17,14 +17,14 @@ p {
   font-size: 15px;
   margin-bottom: 110px;
 }
-main {
-  background-color: hsla(0, 0%, 100%, 0.75);
+body {
+  background-color: #f2f2f2;
 }
 .container {
   overflow: hidden;
   border-radius: 10px;
   display: flex;
-  margin: 70px auto;
+  margin: 135px auto 20px auto;
   max-width: 1000px;
 }
 .sec {
